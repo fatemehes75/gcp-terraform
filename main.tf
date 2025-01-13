@@ -1,6 +1,6 @@
 resource "google_storage_bucket" "my-bucket" {
   name          = "tt-bucket"
-  project = "terraform-dev-001"
+  project       = "terraform-dev-001"
   location      = "US"
   force_destroy = true
 
