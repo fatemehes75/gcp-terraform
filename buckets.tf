@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "my-bucket" {
+resource "google_storage_bucket" "tt-bucket" {
   name          = "tt-bucket"
   location      = "US"
   force_destroy = true
